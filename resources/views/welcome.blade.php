@@ -19,19 +19,29 @@
             body {
                 font-family: 'Nunito', sans-serif;
                 color: rgb(75, 85, 99);
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                display: grid;
+                align-content: center;
+                justify-items: center;
                 height: 100vh;
+                margin: 0;
+            }
+
+            h1, h2 {
                 margin: 0;
             }
 
             h1 {
                 font-size: 32px;
             }
+
+            h2 {
+                font-size: 24px;
+            }
+            
         </style>
     </head>
     <body>
-        <h1>Notifications</h1>
+        <h1>Skeleton</h1>
+        <h2>Notifications</h2>
     </body>
 </html>
